@@ -8,9 +8,9 @@ Feel free to explore and reach out if you have any questions!
 
 | Project | Description | Technologies |
 | ------- | ----------- | ------------ |
-| e-crops | An arcade-style simulation game built from scratch in C, where players maintain a virtual garden by watering, fertilizing, and tending to different types of plants. The game introduces a limited number of actions per day, challenging players to manage resources strategically. | `C`, `POSIX Threads`, `File Handling`, `System Clock` |
-| **Project Name 2** | Short explanation of the problem tackled, main features, and outcomes. | `JavaScript`, `React`, `Node.js` |
-| **Project Name 3** | Summary of project goals and what you learned or developed. | `Java`, `Spring Boot`, `MongoDB` |
+| **e-crops** | An arcade-style simulation game built from scratch in C, where players maintain a virtual garden by watering, fertilizing, and tending to different types of plants. The game introduces a limited number of actions per day, challenging players to manage resources strategically. | `C`, `POSIX Threads`, `File Handling`, `System Clock` |
+| **ShelterManager** | A comprehensive application designed to streamline the operations of an animal shelter, including adoption requests, donation management, and receipt generation. Developed with a focus on usability, data management, and separation of concerns through MVC and DAO design patterns. | `UML`, `MVC Pattern`, `DAO Pattern`, `SQL` |
+| **VHDL Digital Command Controller** | The project is a VHDL-based digital system that simulates a complex set of control modules, including a motor control with adjustable direction and sequence, a frequency divider, FIFO (First-In-First-Out) queue for command handling, and a button debounce filter. It aims to demonstrate efficient command processing, sequential control, and reliable button input filtering in digital electronics. | `VHDL`, `State Machines`, `FIFO Data Structure`, `Debounce Filtering` |
 
 *(Add more projects with brief descriptions as needed)*
 
