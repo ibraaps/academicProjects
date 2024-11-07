@@ -40,7 +40,7 @@ This repository includes:
 
 Feel free to explore this repository, and don’t hesitate to reach out if you’d like to discuss my projects or learn more about my experience:
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **Email**: ibraaps@gmail.com
+- **LinkedIn**: [Ibrahim Pérez de León](https://www.linkedin.com/in/ibraaps)
 
 Thank you for visiting!
