@@ -1,12 +1,14 @@
 # 🎓 University Projects Portfolio
 
-Welcome to my portfolio of university projects! Here, you’ll find a curated collection of projects developed throughout my studies, showcasing my growth in software development, problem-solving, and creative engineering. Each project reflects my commitment to learning and applying new technologies in practical ways.
+This repository showcases the projects I've developed throughout my university studies, covering a range of topics and technologies. Each project includes a brief overview, key objectives, and relevant code or resources. These projects reflect my growth in programming, problem-solving, and my passion for exploring various domains in computer science and software engineering.
+
+Feel free to explore and reach out if you have any questions!
 
 ## 🗂️ Project Highlights
 
 | Project | Description | Technologies |
 | ------- | ----------- | ------------ |
-| **Project Name 1** | Brief description of the project, focusing on objectives and results achieved. | `Python`, `Django`, `SQL` |
+| e-crops | An arcade-style simulation game built from scratch in C, where players maintain a virtual garden by watering, fertilizing, and tending to different types of plants. The game introduces a limited number of actions per day, challenging players to manage resources strategically. | `C`, `POSIX Threads`, `File Handling`, `System Clock` |
 | **Project Name 2** | Short explanation of the problem tackled, main features, and outcomes. | `JavaScript`, `React`, `Node.js` |
 | **Project Name 3** | Summary of project goals and what you learned or developed. | `Java`, `Spring Boot`, `MongoDB` |
 
