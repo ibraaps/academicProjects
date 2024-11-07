@@ -1,0 +1,12 @@
+main: main.o function.o 
+	gcc -w -Wall -o main main.o function.o -lpthread
+
+
+function.o: function.c aux.h
+	gcc -w -Wall -c function.c -o function.o -lpthread
+
+main.o: main.c aux.h
+	gcc -w -Wall -c main.c -o main.o -lpthread
+
+clean:
+	rm -rf *.o main
