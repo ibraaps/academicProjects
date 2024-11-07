@@ -13,7 +13,7 @@ Feel free to explore and reach out if you have any questions!
 | **VHDL Digital Command Controller** | The project is a VHDL-based digital system that simulates a complex set of control modules, including a motor control with adjustable direction and sequence, a frequency divider, FIFO (First-In-First-Out) queue for command handling, and a button debounce filter. It aims to demonstrate efficient command processing, sequential control, and reliable button input filtering in digital electronics. | `VHDL`, `State Machines`, `FIFO Data Structure`, `Debounce Filtering` |
 | **AutoTrack PI: Autonomous Line-Following Car** | The project involves developing an autonomous line-following car that uses infrared sensors to detect and follow a predefined path. It incorporates a proportional-integral (PI) control system to maintain the car's alignment along the path. Key challenges, including wheel speed inconsistencies and environmental sensitivity of sensors, are addressed to improve stability and reliability under varying conditions. | `PI Control`, `Infrared Sensors`, `Bluetooth Comunication`, `Arduino` |
 > [!NOTE]
-> All the documentation and part of the code will be in Spanish because it has been done while studying the Telecommunications Engineering degree at the University of Seville.
+> All the documentation and part of the code will be in Spanish because it has been done while studying Telecommunications Engineering degree at the University of Seville.
 
 ---
 
