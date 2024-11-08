@@ -20,21 +20,21 @@ Feel free to explore and reach out if you have any questions!
 ## 🔍 About This Repository
 
 This repository includes:
-- 📂 A diverse set of projects, from web applications to data analysis scripts.
-- 📝 Clear documentation for each project, outlining the project’s purpose, technologies used, and key learnings.
-- 🚀 A showcase of practical experience in various computer science areas, including **web development**, **data science**, **software engineering**, and more.
+- 📂 A variety of university projects, spanning from web applications and network monitoring tools to simulation games and autonomous systems.
+- 📝 Detailed documentation for each project, covering objectives, technical implementation, and major learnings.
+- 🚀 A showcase of hands-on experience in areas such as **web development**, **network management**, **embedded systems**, and **software engineering**.
 
 ## 💼 What You’ll Find Here
 
 ### Core Skills
-- **Programming Languages**: Python, JavaScript, Java, C++
-- **Frameworks and Tools**: React, Django, Spring Boot, SQL, Git
-- **Specialized Skills**: Data Analysis, REST API Design, Algorithm Optimization
+- **Programming Languages**: C, JavaScript, Python, Java
+- **Frameworks and Tools**: Node.js, Chart.js, Telegram Bot API, POSIX Threads, Arduino
 
 ### Project Categories
-- **Web Applications**: Frontend and backend projects using modern frameworks.
-- **Data Science**: Exploratory data analysis, machine learning models, and data visualizations.
-- **Software Engineering**: Object-oriented programming, design patterns, and system architecture.
+- **Web and Mobile Applications**: Comprehensive applications for management and automation, using modern web and server-side frameworks.
+- **Network Monitoring and Bot Development**: Tools for SNMP-based monitoring integrated with Telegram for real-time device interaction.
+- **Embedded and Autonomous Systems**: Autonomous navigation and simulation projects with real-time control and resource management.
+- **Simulation Games**: Resource management games coded from scratch, integrating key system concepts.
 
 ---
 
