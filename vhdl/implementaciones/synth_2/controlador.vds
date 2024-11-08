@@ -1,0 +1,273 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu May  2 20:19:41 2024
+# Process ID: 21952
+# Current directory: C:/Users/Ibra/proy24_2/proy24_2.runs/synth_1
+# Command line: vivado.exe -log controlador.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source controlador.tcl
+# Log file: C:/Users/Ibra/proy24_2/proy24_2.runs/synth_1/controlador.vds
+# Journal file: C:/Users/Ibra/proy24_2/proy24_2.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1NKR81U, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 12, Host memory: 17099 MB
+#-----------------------------------------------------------
+source controlador.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 455.688 ; gain = 183.941
+Command: synth_design -top controlador -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15500
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1287.809 ; gain = 438.480
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'controlador' [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/controlador_top.vhd:18]
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio2.Instruccion_lee/ROM.vhd:5' bound to instance 'Inst_ROM' of component 'ROM' [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/controlador_top.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio2.Instruccion_lee/ROM.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (0#1) [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio2.Instruccion_lee/ROM.vhd:11]
+	Parameter clk_divide bound to: 12'b011111010000 
+INFO: [Synth 8-3491] module 'CPU' declared at 'C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:5' bound to instance 'Inst_CPU' of component 'CPU' [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/controlador_top.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'CPU' [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:23]
+	Parameter clk_divide bound to: 12'b011111010000 
+INFO: [Synth 8-256] done synthesizing module 'CPU' (0#1) [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:23]
+INFO: [Synth 8-113] binding component instance 'Inst_sda_obuf' to cell 'IOBUF' [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/controlador_top.vhd:82]
+INFO: [Synth 8-113] binding component instance 'Inst_scl_obuf' to cell 'IOBUF' [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/controlador_top.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'controlador' (0#1) [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/controlador_top.vhd:18]
+WARNING: [Synth 8-3848] Net RAM[0] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[2] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[3] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[4] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[5] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[6] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[7] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[8] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[9] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[10] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[11] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[12] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[13] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[14] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-3848] Net RAM[15] in module/entity CPU does not have driver. [C:/Users/Ibra/proy24_2/proy24_2.srcs/sources_1/imports/ejercicio1.Instrucciones_basicas/cpu.vhd:49]
+WARNING: [Synth 8-7129] Port i2c_sda_i in module CPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c_scl_i in module CPU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1395.875 ; gain = 546.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1395.875 ; gain = 546.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1395.875 ; gain = 546.547
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1399.047 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Ibra/proy24_2/proy24_2.srcs/constrs_1/imports/sed_gitt_trabajo_2024/pines.xdc]
+Finished Parsing XDC File [C:/Users/Ibra/proy24_2/proy24_2.srcs/constrs_1/imports/sed_gitt_trabajo_2024/pines.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Ibra/proy24_2/proy24_2.srcs/constrs_1/imports/sed_gitt_trabajo_2024/pines.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/controlador_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/controlador_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1478.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1478.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'estado_s_reg' in module 'CPU'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              state_boot |                                0 |                              000
+               state_run |                                1 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'estado_s_reg' using encoding 'sequential' in module 'CPU'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 2     
+	   8 Input   16 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 2     
+	   8 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     2|
+|3     |LUT2  |     1|
+|4     |LUT3  |     3|
+|5     |LUT4  |     3|
+|6     |LUT5  |     7|
+|7     |LUT6  |     9|
+|8     |FDCE  |     1|
+|9     |FDRE  |    15|
+|10    |IBUF  |     6|
+|11    |IOBUF |     2|
+|12    |OBUF  |    16|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:26 . Memory (MB): peak = 1478.543 ; gain = 546.547
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1478.543 ; gain = 629.215
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1478.543 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1478.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Synth Design complete | Checksum: 68698a0a
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 1478.543 ; gain = 1022.855
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1478.543 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ibra/proy24_2/proy24_2.runs/synth_1/controlador.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file controlador_utilization_synth.rpt -pb controlador_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May  2 20:20:22 2024...
