@@ -2,7 +2,7 @@
 
 This repository showcases the projects I've developed throughout my university studies, covering a range of topics and technologies. Each project includes a brief overview, key objectives, and relevant code or resources. These projects reflect my growth in programming, problem-solving, and my passion for exploring various domains in computer science and software engineering.
 
-Feel free to explore and reach out if you have any questions!
+Feel free to explore and reach out if you have any questions! asd
 
 ## 🗂️ Project Highlights
 
