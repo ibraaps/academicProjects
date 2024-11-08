@@ -1,0 +1,32 @@
+{
+  "name": "snmp-bot",
+  "version": "1.0.0",
+  "description": "An SNMP Bot for Telegram",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "SNMP",
+    "Bot",
+    "Telegram"
+  ],
+  "author": "Grupo 2 GdR [Jose Maria, Victor, Ibrahim]",
+  "license": "GIT",
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "chart.js": "^4.2.1",
+    "fs": "^0.0.1-security",
+    "net-snmp": "^1.1.19",
+    "node-telegram-bot-api": "^0.24.0",
+    "plotly.js": "^2.20.0"
+  }
+}
