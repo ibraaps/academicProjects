@@ -8,12 +8,12 @@ Feel free to explore and reach out if you have any questions!
 
 | Project | Description | Technologies |
 | ------- | ----------- | ------------ |
-| **e-crops** | An arcade-style simulation game built from scratch in C, where players maintain a virtual garden by watering, fertilizing, and tending to different types of plants. The game introduces a limited number of actions per day, challenging players to manage resources strategically. | `C`, `POSIX Threads`, `File Handling`, `System Clock` |
 | **ShelterManager** | A comprehensive application designed to streamline the operations of an animal shelter, including adoption requests, donation management, and receipt generation. Developed with a focus on usability, data management, and separation of concerns through MVC and DAO design patterns. | `UML`, `MVC Pattern`, `DAO Pattern`, `SQL` |
-| **VHDL Digital Command Controller** | The project is a VHDL-based digital system that simulates a complex set of control modules, including a motor control with adjustable direction and sequence, a frequency divider, FIFO (First-In-First-Out) queue for command handling, and a button debounce filter. It aims to demonstrate efficient command processing, sequential control, and reliable button input filtering in digital electronics. | `VHDL`, `State Machines`, `FIFO Data Structure`, `Debounce Filtering` |
+| **SNMP & Telegram Bot Integration** | A Node.js application integrating SNMP (Simple Network Management Protocol) for network device monitoring with a Telegram bot interface. Users can scan for SNMP devices, retrieve device data, monitor CPU load, uptime, and track network traffic, all via Telegram commands. | `Javascript`, `Node.js`, `net-snmp`, `Telegram Bot API`, `Chart.js` |
+| **e-crops** | An arcade-style simulation game built from scratch in C, where players maintain a virtual garden by watering, fertilizing, and tending to different types of plants. The game introduces a limited number of actions per day, challenging players to manage resources strategically. | `C`, `POSIX Threads`, `File Handling`, `System Clock` |
 | **AutoTrack PI: Autonomous Line-Following Car** | The project involves developing an autonomous line-following car that uses infrared sensors to detect and follow a predefined path. It incorporates a proportional-integral (PI) control system to maintain the car's alignment along the path. Key challenges, including wheel speed inconsistencies and environmental sensitivity of sensors, are addressed to improve stability and reliability under varying conditions. | `PI Control`, `Infrared Sensors`, `Bluetooth Comunication`, `Arduino` |
 > [!NOTE]
-> All the documentation is in spanish because it has been done while studying Telecommunications Engineering degree at the University of Seville.
+> All the documentation is in sçpanish because it has been done while studying Telecommunications Engineering degree at the University of Seville.
 
 ---
 
