@@ -13,7 +13,7 @@ Feel free to explore and reach out if you have any questions!
 | **e-crops** | An arcade-style simulation game built from scratch in C, where players maintain a virtual garden by watering, fertilizing, and tending to different types of plants. The game introduces a limited number of actions per day, challenging players to manage resources strategically. | `C`, `POSIX Threads`, `File Handling`, `System Clock` |
 | **AutoTrack PI: Autonomous Line-Following Car** | The project involves developing an autonomous line-following car that uses infrared sensors to detect and follow a predefined path. It incorporates a proportional-integral (PI) control system to maintain the car's alignment along the path. Key challenges, including wheel speed inconsistencies and environmental sensitivity of sensors, are addressed to improve stability and reliability under varying conditions. | `PI Control`, `Infrared Sensors`, `Bluetooth Comunication`, `Arduino` |
 > [!NOTE]
-> All the documentation is in sçpanish because it has been done while studying Telecommunications Engineering degree at the University of Seville.
+> All the documentation is in spanish because it has been done while studying Telecommunications Engineering degree at the University of Seville.
 
 ---
 
