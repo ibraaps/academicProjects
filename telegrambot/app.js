@@ -7,7 +7,7 @@ const fs = require('fs');
 
 
 // Define BothFather Token
-var token = '6044373412:AAHrEUQoDkypezjr4RoonjYbUbtmUDz9kiU';
+var token = '';
 
 
 // Create a TelegramBot instance
