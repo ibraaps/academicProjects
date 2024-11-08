@@ -1,0 +1,3 @@
+moveforward
+pinMotorA = derecho: alante=2 , detras=1
+pinMotorB = izquierdo alante=2 ,detras=1
